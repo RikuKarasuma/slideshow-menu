@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Portfolio :: Software Eureka</title>
+	<!-- Pace script resources -->
+	<script charset="utf-8" data-pace-options='{ "ajax": false }' src='javascript/pace.js'></script>
+	<link href="design/loading-bar.css" rel="stylesheet"><!-- Design resources -->
+	<link href="design/design.css" rel="stylesheet" type="text/css">
+	<link href="design/js-gallery.css" rel="stylesheet" type="text/css">
+	<link href="design/software-eureka-favicon.png" rel="shortcut icon">
+</head>
+<body>
+	<!-- Page wrapper-->
+	<div id="wrapper">
+		<!-- Page header-->
+		<div id="header">
+			<!-- Page Logo -->
+			<a href="Home.html">
+				<div id="logo"></div>
+			</a>
+			<!-- Navigation Links-->
+			<div id="navigation">
+				<!-- Links as list -->
+				<ul>
+					<li>
+						<a href="Home.html"><b>Home</b></a>
+					</li>
+					<li>
+						<a href="Portfolio.html"><b>Portfolio</b></a>
+					</li>
+					<li>
+						<a href="Resume.pdf"><b>Resume</b></a>
+					</li>
+					<li>
+						<a href="Tips-and-tricks.html"><b>Tips and tricks</b></a>
+					</li>
+					<li>
+						<a href="Contact.html"><b>Contact</b></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+		<!-- Content background container -->
+		<div id="content-background">
+			<div id="content">
+				<!-- Content container -->
+				<div id="js-gallery-container">
+					<h1 style="text-align:center;">Portfolio</h1>
+					<h2 id="item_title" style="text-align:center;"></h2>
+					<div id="js-gallery-sub-container-1">
+						<p>
+							Hello<br><br>To find revelant Techonologies you might be interested in viewing. Please 
+							select a Tag Category to the right. Then select a Project to be presented in detail.
+						</p>
+						<p>
+							Alternatively, select a Project from the Showcase below.
+						</p>
+					</div>
+					<div id="back-to-portfolio" style="display:none;">
+						<a href="Portfolio.html">Back to showcase</a>
+					</div>
+					<div id="js-gallery-sub-container-2">
+						<h2>Showcase:</h2>
+						<br>
+						<div id="showcase-container">
+							<h3>Applications</h3>
+								<a class="project-container" >
+									<img src="images/android-cast/android-cast-logo-small.png" class="project-image">
+									<span class="project-title" onclick="subMenuItemClick(this)">
+										Android Cast
+									</span>
+								</a>
+								<a class="project-container">
+									<img src="images/bit-runner/bit-runner-logo-small.png" class="project-image">
+									<span class="project-title" onclick="subMenuItemClick(this)">
+										BitRunner
+									</span>
+								</a>
+							<h3>Websites</h3>
+								<a class="project-container">
+									<img src="images/couch-cast-site/couch-cast-website.png" class="project-image">
+									<span class="project-title" onclick="subMenuItemClick(this)">
+										Couch Cast Site
+									</span>
+								</a>
+								<a class="project-container">
+									<img src="images/liam-auto-mechanic/liam-auto-mechanic-logo-small.png" class="project-image">
+									<span class="project-title" onclick="subMenuItemClick(this)">
+										Liam Auto Mechanic
+									</span>
+								</a>
+							<h3>Utilities</h3>
+								<a class="project-container">
+									<img src="images/slideshow-menu/slideshow-menu-logo.png" class="project-image">
+									<span class="project-title" onclick="subMenuItemClick(this)">
+										Slideshow Menu
+									</span>
+								</a>
+								<a class="project-container">
+									<img src="images/symbolic-link-creator/symbolic-link-creator-heading.png" class="project-image">
+									<span class="project-title" onclick="subMenuItemClick(this)">
+										Symbolic/Hard link Creator
+									</span>
+								</a>
+						</div>
+					</div>
+				</div>
+				<div id="js-gallery-tag-container">
+					<h3>Tags:</h3>
+				</div>
+			</div>
+			<!-- Footer padding -->
+			<div id="footer-padding"></div>
+			<!-- Footer -->
+			<div id="footer">
+				<p>All Rights Reserved (C) 2017 Owen McMonagle</p>
+			</div>
+		</div>
+	</div>
+	
+	<script charset="utf-8" src="javascript/main.js" type="text/javascript"></script>
+	<script async="true" charset="utf-8" src="javascript/portfolio.js" type="text/javascript"></script>
+	<script src="javascript/SmoothScroll.js" type="text/javascript"></script>
+</body>
+</html>

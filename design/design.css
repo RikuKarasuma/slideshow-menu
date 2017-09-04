@@ -1,0 +1,252 @@
+/*Page body*/
+body
+{
+	margin: 0 auto 0 auto;
+	position: relative;
+	background-color: #333;
+	width: 100%;
+	min-width: 320px;
+	
+}
+
+p
+{
+	font-size: 14px;
+}
+
+/*####################################################
+*//*Page containers */
+
+/*Main container */
+#wrapper
+{
+	font-family:  Arial Black, Bitstream Vera Sans, Helvetica, Sans-Serif;
+}
+
+/*Content background container */
+#content-background
+{
+	margin-top: 50px;
+	background-color: #064169;
+	max-width: 100%;
+	min-width: 1260px;
+	border-top-style: solid;
+	border-top-color: white;
+	padding-top: 20px;
+}
+
+/*Content container */
+#content
+{
+	margin: 0 auto 0 auto;
+	position: relative;
+	background: transparent;
+	border: 1px;
+	max-width: 1260px;
+
+	/* To keep footer from touching content*/
+}
+
+#content h3
+{
+	padding-left: 10px;
+	color: #18bce5;
+}
+
+#content h2
+{
+	padding-left: 10px;
+	color: #18bce5;
+}
+
+#content h1
+{
+	color: #F9F1E1;
+}
+
+#footer-padding
+{
+	min-height: 1000px;
+}
+
+#content-wrapper
+{
+	margin: 0 auto 0 auto;
+	max-width: 1260px;
+	display: flex;
+}
+
+#main-left-content
+{
+	margin-left: 250px;
+	color: #F9F1E1;
+	background-color: #333;
+	width: 400px;
+	height: auto;
+	overflow: hidden;
+	border: 1px;
+	border-radius: 9px;
+	border-color: white;
+	border-style: solid;
+	padding: 15px;
+}
+
+#main-right-content
+{
+	margin-left: 50px;
+	color: #F9F1E1;
+	background-color: #333;
+	width: 300px;
+	border: 1px;
+	border-radius: 9px;
+	border-color: white;
+	border-style: solid;
+	padding: 15px;
+}
+
+#main-content
+{
+	margin: 0 auto 0 auto;
+	color: #F9F1E1;
+	background-color: #333;
+	min-width: 360px;
+	min-height: 240px;
+	height: auto;
+	width: auto;
+	max-width: 720px;
+	border: 1px;
+	border-radius: 9px;
+	border-color: white;
+	border-style: solid;
+	padding-top: 15px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+#main-wide-content
+{
+	display: inline-block;
+	color: #F9F1E1;
+	background-color: #333;
+	width: 960px;
+	overflow: auto;
+	border: 1px;
+	border-radius: 9px;
+	border-color: white;
+	border-style: solid;
+}
+
+#social-box
+{
+	display:flex;
+	margin-left: 12px;
+	width: auto;
+	height: auto;
+}
+
+#important-side-text
+{
+	text-align:center;
+	font-size: 13px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+/*####################################################
+*//*Header design*/
+#header
+{
+    float: none;
+    display: block;
+	margin: 0 auto 0 auto;
+	background: #333;
+	height: 120px;
+	width: 900px;
+}
+
+#logo
+{
+    float: none;
+	margin: 0 auto 0 auto;
+	display: block;
+	height: 110px;
+	width: 900px;
+	background: url("software-eureka-logo.png") no-repeat;
+}
+
+#navigation
+{
+	margin: 0 auto 0 7.5%;
+	width: auto;
+}
+
+/*Navigation bar*/
+#navigation ul
+{
+
+}
+
+#navigation ul li
+{
+	margin: 0 auto 0 auto;
+	list-style-type:none;
+	display: inline;
+}
+
+#navigation li a
+{
+	display: block;
+	float: left;
+	padding: 5px 10px;
+	color: #F9F1E1;
+	text-decoration: none;
+	border-right: 1px solid #fff;
+}
+
+#navigation li a:hover
+{
+	background: #064169;
+}
+
+#navigation li a:active
+{
+	background: #0ac0ee;
+	color: black;
+}
+
+
+/*Foot*/
+#footer
+{
+	bottom: 0px;
+	color: #F9F1E1;
+	padding: 10px;
+	text-align: center;
+	background-color:#333;
+	border: 1px;
+	border-top-style: solid;
+	border-top-color: white;
+	clear: both;
+	position: static;
+	z-index: 10;
+	height: 50px;
+	max-height: 50px;
+}
+
+/*Link design*/
+a:link
+{
+	color: #18bce5;
+}
+
+a:hover
+{
+	color: #0488f8;
+}
+
+a:visited
+{
+	color: #F9F1E1;
+}

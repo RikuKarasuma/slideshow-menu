@@ -1,0 +1,150 @@
+#js-gallery-container
+{ 
+	display: inline-block;
+	vertical-align: top;
+	color: #F9F1E1;
+	background-color: #333;
+	width: 860px;
+	min-height:1000px;
+	overflow-y: auto;
+	border: 1px;
+	border-radius: 9px;
+	border-color: white;
+	border-style: solid;
+	padding: 15px;
+	margin-left: 50px;
+}
+
+#js-gallery-sub-container-1
+{
+	max-width: 860px;
+	height: auto;
+}
+
+#js-gallery-sub-container-2
+{
+	min-height: 300px;
+	max-height: inherit;
+	max-width: 860px;
+	display: block;
+	margin-top: 60px;
+	margin-bottom: 30px;
+}
+
+#js-gallery-tag-container
+{
+	display: inline-block;
+	vertical-align: top; 
+	width: 195px;
+	color: #F9F1E1;
+	margin-left: 25px;
+	background-color: #333;
+	border: 1px;
+	border-radius: 9px;
+	border-color: white;
+	border-style: solid;
+	padding: 15px;
+}
+
+.js-gallery-menu-item
+{
+	margin-top: 6px;
+	margin-left: 20px;
+	display: list-item;
+	list-style-type: none;
+	width: inherit;
+	font-size: 16px;
+}
+
+.js-gallery-menu-item:HOVER
+{
+	color: #18bce5;
+	width: inherit;
+	cursor: pointer;
+}
+
+.active
+{
+	text-decoration: underline;
+	color: #18bce5;
+	margin-top: 5px;
+	margin-left: 20px;
+	display: list-item;
+	list-style-type: none;
+	width: inherit;
+}
+
+.js-gallery-menu-sub-item
+{
+	margin-top: 5px;
+	margin-left: 45px;
+	width: inherit;
+	display: list-item;
+	list-style-type: inherit;
+	font-size: 14px;
+	word-wrap: normal;
+}
+
+.js-gallery-menu-sub-item:HOVER
+{
+	color: #18bce5;
+	width: inherit;
+	cursor: pointer;
+}
+
+.js-gallery-menu-item-container
+{
+	display: none;
+}
+
+.js-gallery-code
+{
+	background: white;
+	color: black;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+.js-gallery-code pre
+{
+	overflow-x: scroll; 
+}
+
+
+#showcase-container
+{
+	min-height: 300px;
+	height: auto;
+	display: block;
+	margin-left: 75px;
+}
+
+.project-container
+{
+	display: table-cell;
+	position: relative;
+	text-decoration: none;
+	text-align: center;
+	width: 320px;
+}
+
+.project-image
+{
+	border-style: none;
+	border-radius:20px;
+	width: 320px;
+	height: 150px;
+	margin: 10px;
+}
+
+.project-title
+{
+	vertical-align: bottom;
+	color: white;
+}
+
+.project-title:HOVER
+{
+	color: #18bce5;
+	cursor: pointer;
+}
